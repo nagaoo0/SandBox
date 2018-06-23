@@ -2,9 +2,9 @@ playertime+=1/room_speed
 /// Inputs
 globalvar kUp, kDown, kLeft, kRight, kSelect, kBack, mLeft, mRight;
 
-kUp = keyboard_check(ord("W"));
+kUp = keyboard_check(ord("Z"));
 kDown = keyboard_check(ord("S"));
-kLeft = keyboard_check(ord("A"));
+kLeft = keyboard_check(ord("Q"));
 kRight = keyboard_check(ord("D"));
 kSelect = 0
 kBack = 0
@@ -100,7 +100,7 @@ if(!kLeft && !kRight && !kUp && !kDown)
     vy = approach(vy,0,fric);
 }
 
- depth=y
+ //depth=y
 
 /// Squash and Stretch
 

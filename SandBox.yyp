@@ -383,14 +383,6 @@
             }
         },
         {
-            "Key": "235c1164-9b8b-4011-895e-427996162079",
-            "Value": {
-                "id": "ce71afb3-b010-4a29-a092-09c374f61002",
-                "resourcePath": "sprites\\slotold\\slotold.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "24bad906-f07b-428a-b6a0-e5623f032fbc",
             "Value": {
                 "id": "5d5fb974-ebde-4c81-9ac3-7538c06297bd",
@@ -2195,14 +2187,6 @@
             "Value": {
                 "id": "cdb10d54-9d59-44d1-ae77-0384bc94ed79",
                 "resourcePath": "sprites\\spr_ItemIcon_RegPotion\\spr_ItemIcon_RegPotion.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f7659b1e-deb5-4407-b1d8-1866207dbbea",
-            "Value": {
-                "id": "efadfee5-890c-4166-a5ee-d2fdad789ec6",
-                "resourcePath": "sprites\\sprite86\\sprite86.yy",
                 "resourceType": "GMSprite"
             }
         },

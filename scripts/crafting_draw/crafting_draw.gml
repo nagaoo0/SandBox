@@ -1,8 +1,11 @@
 if a!=0{
 
 	draw_text(20,80,"Crafting")
-	draw_panel(s_cursor,0,20,100,42*5,42*5,7);
+	//crafting table
+	draw_panel(spr_slot,1,20,100,42*3,42*5,10);
+	//inputs
+	draw_panel(s_cursor,0,20,100+42*2,32,32,7);
+	//output
 
 }
 
-	//if ds_map_find_value()

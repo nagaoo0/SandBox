@@ -21,6 +21,5 @@ enum inv{
 }
 inv=inv.closed
 
-selectedInventory=global.inventory;
 
 

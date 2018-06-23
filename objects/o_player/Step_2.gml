@@ -4,4 +4,4 @@ collision();
 
 // Control Depth
 
-depth = -10;
+depth=-1-(y-view_yview[view_current])
