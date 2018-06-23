@@ -6,5 +6,3 @@ if a!=0{
 }
 
 	//if ds_map_find_value()
-	
-	show_debug_message(string(real("510")))
