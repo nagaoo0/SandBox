@@ -20,11 +20,15 @@ switch inv{
 }
 draw_set_alpha(a-0.5)
 draw_rectangle(0,0,display_get_gui_width(),display_get_gui_height(),false)
+//Drawing when Inventory is open
 draw_set_alpha(a)
 draw_set_color(c_white)
 draw_text(20,20,string_hash_to_newline("Play Time : "+string(round(playertime))))
 draw_text(20,40,string_hash_to_newline("Pos : "+string(currentChunk_x)+":"+string(currentChunk_y)))
 draw_text(20,60,string_hash_to_newline(string(fps)+"              "+string(fps_real)))
+
+crafting_draw();
+
 draw_set_color(c_black)
 
 //
