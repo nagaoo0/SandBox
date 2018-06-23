@@ -1,6 +1,6 @@
 globalvar blockSize, chunkSize, despawnRadius, spawnRadius,
     chunkLoadedSet, chunkMap, playertime, blockData, gen,
-     currentChunk_x, currentChunk_y;
+     currentChunk_x, currentChunk_y, Chunk;
 
 
 randomize();
@@ -31,6 +31,8 @@ global.isGenerating=false;
 
     currentChunk_x=(x/256)
     currentChunk_y=(y/256)
+	
+	Chunk=noone;
 
 
 

@@ -1,4 +1,4 @@
-time=playertime;
+time=get_timer();;
 chunk_center = 8
 price=0;
 hasAcces=false;
@@ -10,6 +10,7 @@ trees=0;
 global.isGenerating=true
 
 gen =true
+
 
 ds_grid_set_region(chunk,0,0,chunkSize,chunkSize,0)
 

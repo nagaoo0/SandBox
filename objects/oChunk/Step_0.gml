@@ -3,7 +3,7 @@
 
 if point_in_rectangle(o_player.x,o_player.y,x,y,x+chunkSize,y+chunkSize){
     active=true; 
-    currentChunk=getKey(x,y)
+    Chunk=id
     currentChunk_x=(x/256)
     currentChunk_y=(y/256)
 
