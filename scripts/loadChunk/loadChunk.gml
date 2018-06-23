@@ -24,8 +24,5 @@ if(chunkExists(x,y)){
 }
 
 ds_map_add(chunkLoadedSet,getKey(x,y),1);
-instance_activate_region(x,y,chunkSize,chunkSize,true)
-instance_activate_object(oChunk)
-instance_activate_object(oGenerator)
 
 debug_event("Chunk Loaded"+getKey(x,y))

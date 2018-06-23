@@ -57,9 +57,4 @@ for(var i = 0; i < chunkSize / blockSize; i++){
 }
 
 
-instance_deactivate_region(x,y,chunkSize,chunkSize,true,true)
-instance_activate_object(oChunk)
-instance_activate_object(oGenerator)
-instance_activate_object(o_cursor)
-
 debug_event("Chunk unloaded"+getKey(x,y))
