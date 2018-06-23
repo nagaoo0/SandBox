@@ -149,5 +149,6 @@ if instance_exists(nearblock){
 if mRight && place_meeting(cx,cy,p_solid) with (instance_position(cx,cy,p_solid)){ instance_destroy();}
 }
 
-
-
+//RENDER
+if r==10 {r = 0; render()}
+else r++

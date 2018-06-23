@@ -8,7 +8,8 @@ if state==CamFollow{
   __view_set( e__VW.HView, view_current, smooth_approach(__view_get( e__VW.HView, view_current ), h, 0.05 ))
 }
 
-  
+
+
 // Remove shake
 
 if(alarm[0] <= 0) {

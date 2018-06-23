@@ -3,6 +3,7 @@
 //Inherit Variables
 event_inherited();
 
+r=0
 
 // Movement
 vxMax = 2;
