@@ -10,5 +10,5 @@ h=sprite_height;
 y += 4;
 yy = 8
 
-
+depth=-10;
 

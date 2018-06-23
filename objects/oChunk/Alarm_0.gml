@@ -5,7 +5,7 @@ if trees<5 && hasProposed {
    
 
     if !place_meeting(x+xx*16,y+yy*16,o_tree) && chunk[# xx, yy]==2{
-        instance_create(x+xx*16,y+yy*16,o_tree)
+        instance_create_layer(x+xx*16,y+yy*16,"OnGround",o_tree)
         trees+=1
     }
 

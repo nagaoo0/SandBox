@@ -1,5 +1,5 @@
 
-time+=1/room_speed
+
 
 if point_in_rectangle(o_player.x,o_player.y,x,y,x+chunkSize,y+chunkSize){
     active=true; 

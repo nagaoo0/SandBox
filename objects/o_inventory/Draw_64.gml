@@ -24,7 +24,7 @@ draw_set_alpha(a)
 draw_set_color(c_white)
 draw_text(20,20,string_hash_to_newline("Play Time : "+string(round(playertime))))
 draw_text(20,40,string_hash_to_newline("Pos : "+string(currentChunk_x)+":"+string(currentChunk_y)))
-draw_text(20,100,string_hash_to_newline(""))
+draw_text(20,60,string_hash_to_newline(string(fps)+"              "+string(fps_real)))
 draw_set_color(c_black)
 
 //

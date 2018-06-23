@@ -8,7 +8,7 @@ if(chunkExists(x,y)){
     ds_grid_read(chunk,str);
 
 
-    time= ds_map_find_value(blockData,"Time"+getKey(x,y))
+    time=  ds_map_find_value(blockData,"Time"+getKey(x,y))
     
     hasAcces= ds_map_find_value(blockData,"Acess"+getKey(x,y))
     hasProposed = ds_map_find_value(blockData,"Proposed"+getKey(x,y))

@@ -152,3 +152,8 @@ if mRight && place_meeting(cx,cy,p_solid) with (instance_position(cx,cy,p_solid)
 //RENDER
 if r==10 {r = 0; render()}
 else r++
+
+if fps<60 && !instance_exists(TMC_FrameSkip_v2_Static_obj)
+	instance_create(x,y,TMC_FrameSkip_v2_Static_obj)
+else if instance_exists(TMC_FrameSkip_v2_Static_obj)
+	instance_destroy(TMC_FrameSkip_v2_Static_obj);

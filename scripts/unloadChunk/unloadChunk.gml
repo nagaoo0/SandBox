@@ -5,7 +5,7 @@ ds_map_replace(chunkMap,getKey(x,y),
 );
 //time saving
 //ds_map_add(blockData,"Time"+getKey(x,y),time)
-ds_map_replace(blockData,"Time"+getKey(x,y),time)
+ds_map_replace(blockData,"Time"+getKey(x,y),get_timer())
 //set price per chunk
 //ds_map_add(blockData,"Price"+getKey(x,y),price)
 ds_map_replace(blockData,"Price"+getKey(x,y),price)
@@ -44,10 +44,10 @@ for(var i = 0; i < chunkSize / blockSize; i++){
 		//	instance_destroy(groundBlock);
 		//}
 		
-		if place_meeting(x+i*16,y+j*16,p_floor)  with (instance_position(cx,cy,p_solid)){ instance_destroy();}
+		//if place_meeting(x+i*16,y+j*16,p_floor)  with (instance_position(cx,cy,p_solid)){ instance_destroy();}
 				
 				
-				if place_meeting(x+i*16,y+j*16,p_floor)  with (instance_position(cx,cy,p_solid)){ instance_destroy();} 
+		//if place_meeting(x+i*16,y+j*16,p_floor)  with (instance_position(cx,cy,p_solid)){ instance_destroy();} 
 
 
 		var bush = instance_place(x+i*16,y+j*16,o_bush);
