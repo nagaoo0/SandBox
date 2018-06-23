@@ -2,9 +2,9 @@ playertime+=1/room_speed
 /// Inputs
 globalvar kUp, kDown, kLeft, kRight, kSelect, kBack, mLeft, mRight;
 
-kUp = keyboard_check(ord("Z"));
+kUp = keyboard_check(ord("W"));
 kDown = keyboard_check(ord("S"));
-kLeft = keyboard_check(ord("Q"));
+kLeft = keyboard_check(ord("A"));
 kRight = keyboard_check(ord("D"));
 kSelect = 0
 kBack = 0
