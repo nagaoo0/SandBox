@@ -1,0 +1,340 @@
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\scripts\inventory_int\inventory_int.gml
+Converted description /// @description  inventory_int(slot width, slot height)/// @param slot width
+/// @param  slot height
+
+Converting GML script: ${project_dir}\scripts\inventory_draw\inventory_draw.gml
+Converted builtin - line 117: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 118: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted description /// @description  inventory_draw(x,y, spritebox, sprite_infobox, slot_gap, text_color)/// @param x
+/// @param y
+/// @param  spritebox
+/// @param  sprite_infobox
+/// @param  slot_gap
+/// @param  text_color
+
+Converting GML script: ${project_dir}\scripts\draw_hotbar\draw_hotbar.gml
+Converted description /// @description  inventory_draw(x,y)/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\inventory_clear\inventory_clear.gml
+Converted description /// @description  inventory_clear()
+
+Converting GML script: ${project_dir}\scripts\inventory_load\inventory_load.gml
+Converted description /// @description  inventory_load(filename)/// @param filename
+
+Converting GML script: ${project_dir}\scripts\inventory_save\inventory_save.gml
+Converted description /// @description  inventory_save(filename)/// @param filename
+
+Converting GML script: ${project_dir}\scripts\inventory_read\inventory_read.gml
+Converted description /// @description  inventory_read(Typ,SlotID)/// @param Typ
+/// @param SlotID
+
+Converting GML script: ${project_dir}\scripts\local_inventory_read\local_inventory_read.gml
+Converted description /// @description  inventory_read(Typ,SlotID)/// @param Typ
+/// @param SlotID
+
+Converting GML script: ${project_dir}\scripts\inventory_sort\inventory_sort.gml
+Converted description /// @description  inventory_sort(typ, reserve)/// @param typ
+/// @param  reserve
+
+Converting GML script: ${project_dir}\scripts\inventory_delete_item\inventory_delete_item.gml
+Converted description /// @description inventory_delete_item(Item ID, Amount);/// @param Item ID
+/// @param  Amount
+
+Converting GML script: ${project_dir}\scripts\inventory_write\inventory_write.gml
+Converted description /// @description  inventory_write(Typ,SlotID,value)/// @param Typ
+/// @param SlotID
+/// @param value
+
+Converting GML script: ${project_dir}\scripts\inventory_item_add\inventory_item_add.gml
+Converted description /// @description  inventory_item_add(ID, Amount)/// @param ID
+/// @param  Amount
+
+Converting GML script: ${project_dir}\scripts\local_inventory_item_add\local_inventory_item_add.gml
+Converted description /// @description  local_inventory_item_add(ID, Amount)/// @param ID
+/// @param  Amount
+
+Converting GML script: ${project_dir}\scripts\inventory_item_clear\inventory_item_clear.gml
+Converted description /// @description  inventory_item_clear(SlotID)/// @param SlotID
+
+Converting GML script: ${project_dir}\scripts\inventory_item_delete\inventory_item_delete.gml
+Converted description /// @description  inventory_item_delete(SlotID, Amount)/// @param SlotID
+/// @param  Amount
+
+Converting GML script: ${project_dir}\scripts\inventory_item_drop\inventory_item_drop.gml
+Converted description /// @description  inventory_item_drop(SlotID,Amount,x,y,objdrop)/// @param SlotID
+/// @param Amount
+/// @param x
+/// @param y
+/// @param objdrop
+
+Converting GML script: ${project_dir}\scripts\inventory_item_exchange\inventory_item_exchange.gml
+Converted description /// @description  inventory_item_exchange(slot_id1, slot_id2)/// @param slot_id1
+/// @param  slot_id2
+
+Converting GML script: ${project_dir}\scripts\inventory_item_find\inventory_item_find.gml
+Converted description /// @description  inventory_item_find(ID)/// @param ID
+
+Converting GML script: ${project_dir}\scripts\inventory_item_use\inventory_item_use.gml
+Converted description /// @description  inventory_item_use(SlotID)/// @param SlotID
+
+Converting GML script: ${project_dir}\scripts\item_add\item_add.gml
+Converted description /// @description  item_add(ID,ID-Info,value)/// @param ID
+/// @param ID-Info
+/// @param value
+
+Converting GML script: ${project_dir}\scripts\item_id_read\item_id_read.gml
+Converted description /// @description  item_id_read(ID,ID_Info)/// @param ID
+/// @param ID_Info
+
+Converting GML script: ${project_dir}\scripts\draw_text_outlined\draw_text_outlined.gml
+Converted description /// @description draw_text_outlined(x, y, string, colour, outline_colour)/// @param x
+/// @param  y
+/// @param  string
+/// @param  colour
+/// @param  outline_colour
+
+Converting GML script: ${project_dir}\scripts\draw_text_shadow\draw_text_shadow.gml
+Converted description /// @description draw_text_shadow(x, y, string, colour, shadow_colour, shadow_alpha)/// @param x
+/// @param  y
+/// @param  string
+/// @param  colour
+/// @param  shadow_colour
+/// @param  shadow_alpha
+
+Converting GML script: ${project_dir}\scripts\draw_text_shadow_ext\draw_text_shadow_ext.gml
+Converted description /// @description draw_text_shadow_ext(x, y, string, colour, shadow_colour, shadow_direction, shadow_distance, shadow_alpha)/// @param x
+/// @param  y
+/// @param  string
+/// @param  colour
+/// @param  shadow_colour
+/// @param  shadow_direction
+/// @param  shadow_distance
+/// @param  shadow_alpha
+
+Converting GML script: ${project_dir}\scripts\draw_sprite_outlined\draw_sprite_outlined.gml
+Converted description /// @description draw_sprite_outlined(sprite, subimg, x, y, xscale, yscale, ang, colour, outline_colour)/// @param sprite
+/// @param  subimg
+/// @param  x
+/// @param  y
+/// @param  xscale
+/// @param  yscale
+/// @param  ang
+/// @param  colour
+/// @param  outline_colour
+
+Converting GML script: ${project_dir}\scripts\draw_sprite_shadow\draw_sprite_shadow.gml
+Converted description /// @description draw_sprite_shadow(direction, distance, scale, colour, alpha);/// @param direction
+/// @param  distance
+/// @param  scale
+/// @param  colour
+/// @param  alpha
+
+Converting GML script: ${project_dir}\scripts\string_split\string_split.gml
+Converted description /// @description string_split(string, split)/// @param string
+/// @param  split
+
+Converting GML script: ${project_dir}\scripts\approach\approach.gml
+Converted description /// @description approach(current, target, amount)/// @param current
+/// @param  target
+/// @param  amount
+
+Converting GML script: ${project_dir}\scripts\angle_approach\angle_approach.gml
+Converted description /// @description angle_approach(current, target, turn_speed)/// @param current
+/// @param  target
+/// @param  turn_speed
+
+Converting GML script: ${project_dir}\scripts\smooth_approach\smooth_approach.gml
+Converted description /// @description smooth_approach(current, target, speed[0-1])/// @param current
+/// @param  target
+/// @param  speed[0-1]
+
+Converting GML script: ${project_dir}\scripts\percent_chance\percent_chance.gml
+Converted description /// @description percent_chance(%)/// @param %
+
+Converting GML script: ${project_dir}\scripts\round_chance\round_chance.gml
+Converted description /// @description round_chance(number)/// @param number
+
+Converting GML script: ${project_dir}\scripts\set_chance\set_chance.gml
+Converted description /// @description set_chance(%, value_if_true, value_if_false)/// @param %
+/// @param  value_if_true
+/// @param  value_if_false
+
+Converting GML script: ${project_dir}\scripts\multi_chance\multi_chance.gml
+Converted description /// @description multi_chance(value1, chance1, value2, chance2, ..., [default_value])/// @param value1
+/// @param  chance1
+/// @param  value2
+/// @param  chance2
+/// @param  ...
+/// @param  [default_value]
+
+Converting GML script: ${project_dir}\scripts\ds_list_reverse\ds_list_reverse.gml
+Converted description /// @description ds_list_reverse(list)/// @param list
+
+Converting GML script: ${project_dir}\scripts\ds_list_random\ds_list_random.gml
+Converted description /// @description ds_list_random(list)/// @param list
+
+Converting GML script: ${project_dir}\scripts\ds_list_delete_all\ds_list_delete_all.gml
+Converted description /// @description ds_list_delete_all(list, value)/// @param list
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\instance_list_random\instance_list_random.gml
+Converted description /// @description instance_list_random(object)/// @param object
+
+Converting GML script: ${project_dir}\scripts\instance_nearest_list\instance_nearest_list.gml
+Converted description /// @description instance_nearest_list(x, y, obj)/// @param x
+/// @param  y
+/// @param  obj
+
+Converting GML script: ${project_dir}\scripts\mouse_over\mouse_over.gml
+Converted description /// @description mouse_over()
+
+Converting GML script: ${project_dir}\scripts\stick_to\stick_to.gml
+Converted description /// @description stick_to(object, xoffset, yoffset)/// @param object
+/// @param  xoffset
+/// @param  yoffset
+
+Converting GML script: ${project_dir}\scripts\stick_to_angle\stick_to_angle.gml
+Converted description /// @description stick_to_angle(object, xoffset, yoffset, angleoffset)/// @param object
+/// @param  xoffset
+/// @param  yoffset
+/// @param  angleoffset
+
+Converting GML script: ${project_dir}\scripts\within\within.gml
+Converted description /// @description within(variable, value, within)/// @param variable
+/// @param  value
+/// @param  within
+
+Converting GML script: ${project_dir}\scripts\draw_panel\draw_panel.gml
+Converted description /// @description  draw_panel(sprite, index, x, y, width, height, size);/// @param sprite
+/// @param  index
+/// @param  x
+/// @param  y
+/// @param  width
+/// @param  height
+/// @param  size
+
+Converting GML script: ${project_dir}\scripts\draw_shadow\draw_shadow.gml
+Converted description /// @description  draw_shadow(x,y,alpha,sprite,extrasize)/// @param x
+/// @param y
+/// @param alpha
+/// @param sprite
+/// @param extrasize
+
+Converting GML script: ${project_dir}\scripts\getCurrentChunk\getCurrentChunk.gml
+Converted description /// @description getCurrentChunk()
+
+Converting GML script: ${project_dir}\scripts\proposeChunk\proposeChunk.gml
+Converted description /// @description proposeChunk()
+
+Converting GML script: ${project_dir}\scripts\CamMoveTo\CamMoveTo.gml
+Converted description /// @description CamMoveTo()
+
+Converting GML script: ${project_dir}\scripts\CamBuyChunk\CamBuyChunk.gml
+Converted builtin - line 9: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
+Converted builtin - line 10: view_hview[view_current] -> __view_get( e__VW.HView, view_current )
+Converted builtin - line 9: view_wview[view_current] = smooth_approach(__view_get( e__VW.WView, view_current ), w*1.5, 0.05 -> __view_set( e__VW.WView, view_current, smooth_approach(__view_get( e__VW.WView, view_current ), w*1.5, 0.05 )
+Converted builtin - line 10: view_hview[view_current] = smooth_approach(__view_get( e__VW.HView, view_current ), h*1.5, 0.05 -> __view_set( e__VW.HView, view_current, smooth_approach(__view_get( e__VW.HView, view_current ), h*1.5, 0.05 )
+
+Converting GML script: ${project_dir}\scripts\scrAutotileInitiate\scrAutotileInitiate.gml
+Converted description /// @description scrAutotileInitiate( object, tileSize, moreTiles /*Not Up to date*/)/// @param  object
+/// @param  tileSize
+/// @param  moreTiles /*Not Up to date*/
+
+Converting GML script: ${project_dir}\scripts\scrAutotile\scrAutotile.gml
+Converted description /// @description scrAutotile
+
+Converting GML script: ${project_dir}\scripts\animation_hit_frame\animation_hit_frame.gml
+Converted description /// @description animation_hit_frame(frame)/// @param frame
+
+Converting GML script: ${project_dir}\scripts\collision\collision.gml
+Converted description /// @description  collision()
+
+Converting GML script: ${project_dir}\scripts\custom_dust\custom_dust.gml
+Converted description /// @description custom_dust(x,y,vx,vy,color)/// @param x
+/// @param y
+/// @param vx
+/// @param vy
+/// @param color
+
+Font f_menu has been converted to font family OCR A Extended (Regular) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\o_camera\Create_0.gml
+Converted builtin - line 6: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
+Converted builtin - line 7: view_hview[view_current] -> __view_get( e__VW.HView, view_current )
+
+Converting GML script: ${project_dir}\objects\o_camera\Alarm_0.gml
+Converted description /// @description  Camera shake
+
+Converting GML script: ${project_dir}\objects\o_camera\Step_0.gml
+Converted builtin - line 3: view_xview[view_current] = x - view_wview[view_current]/2 -> __view_set( e__VW.XView, view_current, x - view_wview[view_current]/2 )
+Converted builtin - line 4: view_yview[view_current] = y - view_hview[view_current]/1.75 -> __view_set( e__VW.YView, view_current, y - view_hview[view_current]/1.75 )
+Converted builtin - line 7: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
+Converted builtin - line 8: view_hview[view_current] -> __view_get( e__VW.HView, view_current )
+Converted description /// @description  Execute the state
+Converted builtin - line 3: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
+Converted builtin - line 7: view_wview[view_current] = smooth_approach(__view_get( e__VW.WView, view_current ), w, 0.05 -> __view_set( e__VW.WView, view_current, smooth_approach(__view_get( e__VW.WView, view_current ), w, 0.05 )
+Converted builtin - line 4: view_hview[view_current] -> __view_get( e__VW.HView, view_current )
+Converted builtin - line 8: view_hview[view_current] = smooth_approach(__view_get( e__VW.HView, view_current ), h, 0.05 -> __view_set( e__VW.HView, view_current, smooth_approach(__view_get( e__VW.HView, view_current ), h, 0.05 )
+
+Converting GML script: ${project_dir}\objects\oCycle\Create_0.gml
+Converted builtin - line 3: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oCycle\Draw_73.gml
+Converted builtin - line 18: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 18: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\p_enemy\Create_0.gml
+Converted description /// @description Initialize Enemies
+
+Converting GML script: ${project_dir}\objects\p_entity\Create_0.gml
+Converted description /// @description  Initialize Entites(Moveable)/// @param Moveable
+
+Converting GML script: ${project_dir}\objects\p_entity\Step_2.gml
+Converted description /// @description  Check Collisions
+
+Converting GML script: ${project_dir}\objects\p_entity\Step_1.gml
+Converted description /// @description  Collisions
+
+Converting GML script: ${project_dir}\objects\obj_drop\Create_0.gml
+Converted description /// @description  Initialize Entites(Moveable)/// @param Moveable
+
+Converting GML script: ${project_dir}\objects\oChunk\Alarm_0.gml
+Converted description /// @description spawning trees
+
+Converting GML script: ${project_dir}\objects\oGenerator\Create_0.gml
+ERROR: D:\Projets\Jeux\GM2\SandBox\objects\oGenerator\Create_0.gml - 3: missing variable name in globalvar
+Too many errors - GML not processed : ${project_dir}\objects\oGenerator\Create_0.gml
+
+Converting GML script: ${project_dir}\objects\o_tree\Draw_0.gml
+Converted description /// @description dont draw
+
+Converting GML script: ${project_dir}\objects\o_player\Create_0.gml
+Converted description /// @description  Initialize Player
+
+Converting GML script: ${project_dir}\objects\o_player\Draw_73.gml
+Converted description /// @description Light
+
+Converting GML script: ${project_dir}\objects\o_enemy\Create_0.gml
+Converted description /// @description  Initialize
+
+Converting GML script: ${project_dir}\objects\o_enemy\Step_0.gml
+Converted description /// @description  Squash and Stretch
+
+Converting GML script: ${project_dir}\objects\o_dust\Step_0.gml
+Converted description /// @description  Control Dust
+
+Game speed set to 60
+Added compatibility script 'd3d/d3d_set_fog.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
