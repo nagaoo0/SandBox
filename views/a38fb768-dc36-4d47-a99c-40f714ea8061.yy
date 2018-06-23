@@ -7,7 +7,7 @@
         "8783fcda-239c-493d-9769-a1a9c3651e94"
     ],
     "filterType": "GMScript",
-    "folderName": "Creafting",
+    "folderName": "Crafting",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
