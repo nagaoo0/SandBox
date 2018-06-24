@@ -466,7 +466,7 @@
             "Key": "2ea76129-4272-4509-9d64-06e72505d0d2",
             "Value": {
                 "id": "019bd2b5-2b86-4f1e-b991-49bfb07cc487",
-                "resourcePath": "scripts\\crafting_recipe\\crafting_recipe.yy",
+                "resourcePath": "scripts\\recipe_input_add\\recipe_input_add.yy",
                 "resourceType": "GMScript"
             }
         },
