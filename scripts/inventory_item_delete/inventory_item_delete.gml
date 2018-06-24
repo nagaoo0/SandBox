@@ -10,9 +10,13 @@ if inventory_read("slot",slot_id) = true{
       item_amount = inventory_read("Stack",slot_id)
       item_amount = max(item_amount-amount,0)
       if item_amount = 0{
+			var pos = ds_list_find_index(items,ds_map_find_value(global.inventory,"ID"+string(slot_id)))
+			ds_list_delete(items,pos)
+		  
          inventory_write("slot",slot_id,false)
          inventory_write("ID",slot_id,-1)
          inventory_write("Stack",slot_id,-1)
+
       }else{
          inventory_write("Stack",slot_id,item_amount)
       }
@@ -20,3 +24,5 @@ if inventory_read("slot",slot_id) = true{
       inventory_item_clear(slot_id)  
    }
 }
+
+	

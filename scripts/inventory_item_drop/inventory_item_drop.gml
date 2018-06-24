@@ -24,6 +24,9 @@ if inventory_read("slot",slot_id) = true{
          with(inst) ID = inventory_read("ID",slot_id)
       }
       if item_amount = 0{
+		  var pos = ds_list_find_index(items,ds_map_find_value(global.inventory,"ID"+string(slot_id)))
+			ds_list_delete(items,pos)
+			
          inventory_item_clear(slot_id);
       }else{
          inventory_write("Stack",slot_id,item_amount)
@@ -34,7 +37,8 @@ if inventory_read("slot",slot_id) = true{
       inst = instance_create(_x,_y,objdrop)
       repeat(item_amount){
          with(inst) ID = inventory_read("ID",slot_id)
-      }
+      }		
+			
       inventory_item_clear(inventory_select());
    }
 }

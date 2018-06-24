@@ -66,4 +66,8 @@ while (stack > 0){
     }
 }
 
+var IDindex = ds_list_find_index(items,ID)
+if IDindex == -1 ds_list_add(items,ID)
+
+
 return stack

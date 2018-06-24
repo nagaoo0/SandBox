@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "2ce9f8b3-8a78-4a67-944d-d86e1f31ec0d",
+            "Value": {
+                "id": "c5f0e489-e44c-404c-87db-97b9002940d5",
+                "resourcePath": "scripts\\recipe_check\\recipe_check.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2e979fb3-e606-4aa0-810e-1c8ff7830027",
             "Value": {
                 "id": "ff3180c9-db81-4e48-9d3b-076696ad6f07",
@@ -2325,6 +2333,7 @@
         "12cda8b7-3b56-41a0-9539-7b7aa32f5262",
         "2160e8a0-52de-448b-b19c-fb689997e39a",
         "45364977-9e5e-4f81-9528-87694f285344",
+        "2ce9f8b3-8a78-4a67-944d-d86e1f31ec0d",
         "dafad890-b03f-4f30-a46d-bc2a8ff9a65f",
         "4fb86d44-2bf6-4ae1-aa01-23e3c4bdcc29",
         "62a8d68e-93d8-4b79-b3d4-5f308f04886d",

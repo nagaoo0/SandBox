@@ -1,6 +1,6 @@
 global.recipe_id = ds_map_create();
   // construct maps  
-  var input = ds_map_create();
+
 
 //DEMO
 recipe_add(20,1,0)			//Wood, can be crafted, in inventory (minimum level of workbech, 0 = inventory)

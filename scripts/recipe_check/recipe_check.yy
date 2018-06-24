@@ -1,8 +1,8 @@
 {
-    "id": "bd3591e9-2212-4be2-a54b-56f74b714f39",
+    "id": "2ce9f8b3-8a78-4a67-944d-d86e1f31ec0d",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "inventory_draw",
+    "name": "recipe_check",
     "IsCompatibility": false,
     "IsDnD": false
 }

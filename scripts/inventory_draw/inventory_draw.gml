@@ -178,5 +178,5 @@ draw_set_color(pre_col);
 
      // show_debug_message("I Last selected "+string(global.ItemLastSelect))
      //      show_debug_message("I Mouse outside "+string(global.MouseOutside))
-           //show_debug_message("I Mouse ID      "+string(global.MouseIndex))
+           //show_debug_message("I Mouse slot      "+string(global.MouseIndex))
            //show_debug_message("I Amount         "+string(ds_map_find_value(global.inventory,"Stack"+string(global.MouseIndex))))
