@@ -2,9 +2,7 @@
 
 
   // construct maps  
-  var recipe = ds_map_create();
   var map_ingredients = ds_map_create();
-  var map_result = ds_map_create();
  
   // populate ingredients map
   ds_map_add(map_ingredients, ITEMTYPE.wood, 3)
