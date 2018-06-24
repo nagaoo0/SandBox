@@ -13,7 +13,8 @@ var _x, _y, slot_width, spritebox, sprite_infobox,slot_gap,pre_col;
 
 
 _x = argument0;
-_y = argument1 + yy;
+_y = argument1+yy;
+var sy= argument1;
 spritebox = argument2;
 sprite_infobox = argument3;
 slot_gap = argument4;
@@ -165,7 +166,9 @@ if r==0 {
       }
 }
 
-
+draw_panel(spr_slot,1,_x+10+42*slot_width,sy,10,43*7,5)
+var py= sy-(yy/32*16)
+draw_panel(spr_slot,2,_x+5+42*slot_width,py,20,20,10)
 
 
 

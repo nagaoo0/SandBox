@@ -9,4 +9,5 @@ if h != sprite_height
  if point_distance(x,y,o_player.x,o_player.y)<chunkSize 
 draw_sprite(s_tree,image_index,x,y+yy)
 
-depth=-1-(y-view_yview[view_current])
+if d==10 {depth=-1-(y-view_yview[view_current]);d=0;}
+else d++;

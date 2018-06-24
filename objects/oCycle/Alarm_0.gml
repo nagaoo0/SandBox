@@ -1,15 +1,15 @@
-if time == "day"{
+//if time == "day"{
 
-        time = "night";
-        alarm[0]=room_speed//*60*15
+//        time = "night";
+//        alarm[0]=room_speed//*60*15
 
-}
-if time == "night"{
+//}
+//if time == "night"{
 
-        time = "day";
-        alarm[0]=room_speed//*60*8
+//        time = "day";
+//        alarm[0]=room_speed//*60*8
 
-}
+//}
 
-/* */
-/*  */
+///* */
+///*  */
