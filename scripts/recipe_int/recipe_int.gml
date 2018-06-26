@@ -9,4 +9,7 @@ recipe_add(20,2,1)			//Wood, Number of ingeredients, 1
 recipe_add(20,3,input)		//Add all previous ingredients to the recepie
 	ds_map_clear(input)		//clear ingredients for next recepie
 recipe_add(20,4,2)			//Wood, Amount of resaulting items, Amount = 2 
+recipe_add(20,5,20)			//Wood, craftresault is wood		
+
+
 
