@@ -128,11 +128,6 @@ if(state == RUN) {
 rawdir=     point_direction(x, y, mouse_x,mouse_y)
 d=          point_distance(x, y, mouse_x, mouse_y)
 
-if inventory_read("ID",global.ItemLastSelect) == 51
-{
- if !instance_exists(o_gun) gun = instance_create(x,y,o_gun);
-} else 
-if instance_exists(o_gun) with (gun) instance_destroy();
 
 if o_inventory.inv==inv.closed{
 var nearblock= noone;

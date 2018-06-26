@@ -357,9 +357,4 @@ item_add(50,3,false)
 item_add(50,4,"")
 item_add(50,5,"a dust from soul")
 
-item_add(51,0,"Gun")
-item_add(51,1,1)
-item_add(51,2,s_gun)
-item_add(51,3,false)
-item_add(51,4,"")
-item_add(51,5,"gun test")
+

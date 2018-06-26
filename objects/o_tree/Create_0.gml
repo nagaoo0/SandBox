@@ -10,6 +10,5 @@ h=sprite_height;
 y += 4;
 yy = 8
 
-depth=-10;
-d=0;
-
+var chunk=instance_nearest(x-16*4,y-16*4,oChunk)
+depth=-1-(y-chunk.y)

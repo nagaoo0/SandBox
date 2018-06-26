@@ -1,6 +1,6 @@
 /// @description  Initialize Entites(Moveable)
 /// @param Moveable
-
+depth=-1-(y-currentChunk_y*256)
 vx = 0;
 vy = 0;
 
