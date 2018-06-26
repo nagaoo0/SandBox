@@ -13,7 +13,7 @@
         "a4aadebe-840d-45b6-9998-070a5a8c5883"
     ],
     "filterType": "GMSprite",
-    "folderName": "PlayerSprite",
+    "folderName": "PlayerSprites",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
