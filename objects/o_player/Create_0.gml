@@ -51,6 +51,6 @@ cy = cursor_y div 16 *16;//cursor center y
 cxx = 0
 cyy = 0
  
-
+jump=false;
          
 

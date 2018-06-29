@@ -2,6 +2,7 @@ globalvar items,input;
 
 items=ds_list_create();
 input = ds_map_create();
+recipe = ds_map_create();
 
 item_int();
 recipe_int();

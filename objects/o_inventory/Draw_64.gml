@@ -4,7 +4,7 @@ draw_set_alpha(a)
 draw_set_color(c_black)
 switch inv{
     case inv.open :
-         a = smooth_approach(a,1,0.2)
+         a = smooth_approach(a,1,0.2)		 
          if keyboard_check_released(ord("I")) { 
             inv=inv.closed;   
 
@@ -33,6 +33,8 @@ draw_set_color(c_black)
 
 //
 inventory_draw(display_get_gui_width()/2+48+42,display_get_gui_height()/10,spr_slot, s_slotInfo,10,c_white);
+		 
+//draw_sprite_ext(s_player_hands,0,device_mouse_x_to_gui(0),device_mouse_y_to_gui(0),4,4,0,c_white,a)
 
 draw_set_alpha(1-a)
 

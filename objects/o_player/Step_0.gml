@@ -6,6 +6,7 @@ kUp = keyboard_check(ord("Z"));
 kDown = keyboard_check(ord("S"));
 kLeft = keyboard_check(ord("Q"));
 kRight = keyboard_check(ord("D"));
+kJump = keyboard_check_pressed(vk_space)
 kSelect = 0
 kBack = 0
 mLeft = mouse_check_button(mb_left);
@@ -100,12 +101,24 @@ if(!kLeft && !kRight && !kUp && !kDown)
     vy = approach(vy,0,fric);
 }
 
- //depth=y
+//Jump
+if kJump && !jump{
+	jump=true;
+}
+
 
 /// Squash and Stretch
 
-xscale = approach(xscale, 1, .05);
-yscale = approach(yscale, 1, .05);
+
+
+if jump{
+	xscale = approach(xscale, 1.1, .02);
+	yscale = approach(yscale, 1.1, .02);
+	if xscale == 1.1 jump=false;
+}else{
+	xscale = approach(xscale, 1, .05);
+	yscale = approach(yscale, 1, .05);
+}
 
 // While character runs
 if(state == RUN) {

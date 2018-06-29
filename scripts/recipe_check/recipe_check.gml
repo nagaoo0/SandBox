@@ -1,21 +1,24 @@
-var rN = ds_map_size(global.recipe_id)/5,	inString = ds_map_create ;
+//var rN = ds_map_size(global.recipe_id)/5;
 
+var ID = argument0, canMake = 0;
 
-for (var i = 0; i<rN; i++){
-
-	var 
-	lvl= recipe_id_read(i,1),
-	iN = recipe_id_read(i,2),
-
+	var iN= ds_map_find_value(global.recipe_id,"r["+string(ID)+",2]")
+	var localRecipe =ds_map_create(), strRecipe = ds_map_find_value(global.recipe_id,"r["+string(ID)+",3]")
 	
-	rAmount = recipe_id_read(i,4),
-	ID = recipe_id_read(i,5);
-	inString = ds_map_read(inString, recipe_id_read(i,3))
+	ds_map_read(localRecipe,strRecipe)
 	
-	for (var j = 0; j<ds_map_size(inString); j++){
-		var v = ds_map_find_first(inString);
-	
+	for(i=0 ; i<iN ; i++){
+		var ingredient = ds_map_find_value(localRecipe,"ID"+string(i))
+		var ingredientAmount = ds_map_find_value(localRecipe,"Amount"+string(i))
+		print(ingredient)
+			for (j=0; j<(global.InventorySlot*global.InventorySlotH); j+=1)
+			{
+				if ds_map_find_value(global.inventory,"ID"+string(j)) == ingredient{
+					if i==iN-1 canMake=1;
+				}
+			}	
 	}
-		
+	
+return canMake;
 
-}
+

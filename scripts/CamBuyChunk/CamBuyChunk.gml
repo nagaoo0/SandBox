@@ -1,8 +1,8 @@
 //CamBuyChunk()
 
 if (instance_exists(oChunk)) {
-    var targetx = ((currentChunk_x*256+chunkSize/2)+(mouse_x))/2;
-    var targety = ((currentChunk_y*256+chunkSize/2)+(mouse_y))/2;
+    var targetx = ((currentChunk_x*256+chunkSize/2)+(o_player.x))/2;
+    var targety = ((currentChunk_y*256+chunkSize/2)+(o_player.y))/2;
     
     CamMoveTo(targetx, targety, .05);
     

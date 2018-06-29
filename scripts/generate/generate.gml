@@ -24,7 +24,7 @@ for(var i = 0; i < chunkSize / blockSize; i++){
         
         chunk[# i,j] = round(zz/2+0.5);
         if chunk[# i,j] == 2 price++
-                    print(round((zz/2+0.5)))
+                   // print(round((zz/2+0.5)))
 
         //if chunk[# i,j] == 2 instance_create(x+i*16,y+j*16,o_ground)
         //if chunk[# i,j] == 1 instance_create(x+i*16,y+j*16,o_stone)
