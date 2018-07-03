@@ -11,12 +11,11 @@ var ID = argument0, canMake = 0;
 		var ingredient = ds_map_find_value(localRecipe,"ID"+string(i))
 		var ingredientAmount = ds_map_find_value(localRecipe,"Amount"+string(i))
 		print(ingredient)
-			for (j=0; j<(global.InventorySlot*global.InventorySlotH); j+=1)
-			{
-				if ds_map_find_value(global.inventory,"ID"+string(j)) == ingredient{
-					if i==iN-1 canMake=1;
-				}
-			}	
+		
+		var index = ds_list_find_index(items,ingredient);
+	
+		if index!=-1 if i==iN-1 canMake=1;
+
 	}
 	
 return canMake;
